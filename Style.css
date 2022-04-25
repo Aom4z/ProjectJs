@@ -1,0 +1,91 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.menu{
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.drinksale{
+    border : 1px solid #000;
+    color: black;
+    padding: 100px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.foodsale{
+    border : 1px solid #000;
+    color: black;
+    padding: 100px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+a:link, a:visited {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: gray;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown-content a{
+    width: 40px;
+}
+  
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.order{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.imageproduct{
+    float: left;
+    margin-left: 300px;
+    margin-top: 100px;
+    border: 1px solid #000;
+    width: 500px;
+    height: 500px;
+}
+.fontproduct{
+    margin: auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.detail{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 400px;
+    margin-top: 200px;
+    float: right;
+    border: 1px solid #000;
+    width: 500px;
+    height: 300px;
+}
